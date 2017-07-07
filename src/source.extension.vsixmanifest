@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Atata.Project.Extension.Evgeniy Shunevich.de9e3296-f051-4cd2-91a8-4168d504596e" Version="0.13.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
+    <DisplayName>Atata.Project.Extension</DisplayName>
+    <Description xml:space="preserve">A project that contains Atata UI tests.</Description>
+    <MoreInfo>https://atata-framework.github.io/</MoreInfo>
+    <Icon>logo.png</Icon>
+    <Tags>atata, automation, testing</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[12.0,15.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.Project" d:TargetPath="|Atata.Project;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

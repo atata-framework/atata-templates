@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Project", "Atata.Project\Atata.Project.csproj", "{B2567662-AC63-4C32-8626-30D598F46A4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A3FFEA3-F772-445A-B391-043CAD22F2A7}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		logo.png = logo.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Project.Extension", "Atata.Project.Extension\Atata.Project.Extension.csproj", "{C84F53B0-31FC-4802-8101-6EB7383DF555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.PageObject", "Atata.PageObject\Atata.PageObject.csproj", "{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Control", "Atata.Control\Atata.Control.csproj", "{92AE5B9B-FC46-455A-A000-0BD9325BBD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Trigger", "Atata.Trigger\Atata.Trigger.csproj", "{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2567662-AC63-4C32-8626-30D598F46A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2567662-AC63-4C32-8626-30D598F46A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2567662-AC63-4C32-8626-30D598F46A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2567662-AC63-4C32-8626-30D598F46A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84F53B0-31FC-4802-8101-6EB7383DF555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84F53B0-31FC-4802-8101-6EB7383DF555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84F53B0-31FC-4802-8101-6EB7383DF555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84F53B0-31FC-4802-8101-6EB7383DF555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AE5B9B-FC46-455A-A000-0BD9325BBD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AE5B9B-FC46-455A-A000-0BD9325BBD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AE5B9B-FC46-455A-A000-0BD9325BBD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AE5B9B-FC46-455A-A000-0BD9325BBD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

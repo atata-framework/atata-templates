@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Atata Test Project</Name>
+    <Description>A project for Atata UI tests.</Description>
+    <Icon>logo.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>e6333254-2b09-4761-9644-e894ebbc1093</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AtataUITests</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\NUnitSettings.cs">NUnitSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AtataSettings.cs">AtataSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">UITestFixture.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
