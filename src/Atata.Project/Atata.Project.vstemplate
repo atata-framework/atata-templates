@@ -15,8 +15,8 @@
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\NUnitSettings.cs">NUnitSettings.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AtataSettings.cs">AtataSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NUnitSettings.cs">NUnitSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AtataSettings.cs">AtataSettings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="false">packages.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">UITestFixture.cs</ProjectItem>
     </Project>
