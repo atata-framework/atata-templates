@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="AtataProjectTemplate" Version="0.13.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
+    <DisplayName>Atata Project Template</DisplayName>
+    <Description xml:space="preserve">A set of project and item templates for web automated testing using Atata Framework.</Description>
+    <MoreInfo>https://atata-framework.github.io/</MoreInfo>
+    <License>license.txt</License>
+    <Icon>logo.png</Icon>
+    <PreviewImage>logo_preview.png</PreviewImage>
+    <Tags>atata,automation,testing,ui testing,test automation,automated testing,selenium,webdriver,nunit</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[10.0,]" />
+    <InstallationTarget Version="[10.0,]" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[10.0,]" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.Project" d:TargetPath="|Atata.Project;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Atata.PageObject" d:TargetPath="|Atata.PageObject;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Atata.Control" d:TargetPath="|Atata.Control;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Atata.Trigger" d:TargetPath="|Atata.Trigger;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[15.0.26208.0,16.0)" DisplayName="C# and Visual Basic" />
+  </Prerequisites>
+</PackageManifest>
