@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Control", "Atata.Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Trigger", "Atata.Trigger\Atata.Trigger.csproj", "{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Project.Template", "Atata.Project.Template\Atata.Project.Template.csproj", "{648ECE58-1896-46CE-887C-BA04ADF9C163}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Templates", "Atata.Templates\Atata.Templates.csproj", "{648ECE58-1896-46CE-887C-BA04ADF9C163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

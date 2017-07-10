@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="AtataProjectTemplate" Version="0.13.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
-    <DisplayName>Atata Project Template</DisplayName>
-    <Description xml:space="preserve">A set of project and item templates for web automated testing using Atata Framework.</Description>
+    <Identity Id="AtataTemplates" Version="0.13.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
+    <DisplayName>Atata Templates</DisplayName>
+    <Description xml:space="preserve">A set of project and class templates for web automated testing using Atata Framework.</Description>
     <MoreInfo>https://atata-framework.github.io/</MoreInfo>
     <License>license.txt</License>
     <Icon>logo.png</Icon>

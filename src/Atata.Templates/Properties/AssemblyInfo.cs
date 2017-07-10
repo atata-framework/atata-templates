@@ -1,4 +1,4 @@
 ﻿using System.Reflection;
 
-[assembly: AssemblyTitle("Atata.Project.Template")]
+[assembly: AssemblyTitle("Atata.Templates")]
 [assembly: AssemblyDescription("")]

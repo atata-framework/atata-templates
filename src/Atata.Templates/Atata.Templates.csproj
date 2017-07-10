@@ -13,8 +13,8 @@
     <ProjectGuid>{648ECE58-1896-46CE-887C-BA04ADF9C163}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Atata.Project.Template</RootNamespace>
-    <AssemblyName>Atata.Project.Template</AssemblyName>
+    <RootNamespace>Atata.Templates</RootNamespace>
+    <AssemblyName>AtataTemplates</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
