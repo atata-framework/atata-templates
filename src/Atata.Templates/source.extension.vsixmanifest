@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="AtataTemplates" Version="0.14.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
         <DisplayName>Atata Templates</DisplayName>
-        <Description xml:space="preserve">A set of project and class templates for web automated testing using Atata Framework.</Description>
+        <Description xml:space="preserve">A set of project and class templates for automated web testing using Atata Framework.</Description>
         <MoreInfo>https://atata-framework.github.io/</MoreInfo>
         <License>license.txt</License>
         <Icon>logo.png</Icon>

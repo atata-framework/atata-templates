@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Atata Test Project</Name>
-    <Description>A project for web automated testing using Atata Framework.</Description>
+    <Description>A project for automated web testing using Atata Framework.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
