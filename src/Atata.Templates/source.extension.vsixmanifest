@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AtataTemplates" Version="0.14.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
+        <Identity Id="AtataTemplates" Version="0.15.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
         <DisplayName>Atata Templates</DisplayName>
         <Description xml:space="preserve">A set of project and class templates for automated web testing using Atata Framework.</Description>
         <MoreInfo>https://atata-framework.github.io/</MoreInfo>
