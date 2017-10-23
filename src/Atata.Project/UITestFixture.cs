@@ -12,8 +12,9 @@ namespace $safeprojectname$
             // Find information about AtataContext set-up on https://atata-framework.github.io/getting-started/#set-up.
             AtataContext.Configure().
                 //UseChrome().
-                //    WithArguments("disable-extensions", "no-sandbox", "start-maximized").
+                //    WithArguments("start-maximized").
                 //UseBaseUrl("SITE_URL").
+                UseCulture("en-us").
                 UseNUnitTestName().
                 AddNUnitTestContextLogging().
                 LogNUnitError().

@@ -13,10 +13,18 @@
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$Atata-version$" Value="0.15.0"/>
+      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.13.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.6.0"/>
+      <CustomParameter Name="$Selenium.Support-version$" Value="3.6.0"/>
+      <CustomParameter Name="$NUnit-version$" Value="3.8.1"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.8.0"/>
+    </CustomParameters>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="NUnitSettings.cs">NUnitSettings.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="AtataSettings.cs">AtataSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false">NUnitSettings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false">AtataSettings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="false">packages.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">UITestFixture.cs</ProjectItem>
     </Project>
