@@ -6,7 +6,7 @@
     <Icon>logo.png</Icon>
     <TemplateID>39f3c1fc-9997-418e-be99-9ef855beb47b</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Page.cs</DefaultName>
   </TemplateData>

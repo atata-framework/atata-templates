@@ -6,7 +6,7 @@
     <Icon>logo.png</Icon>
     <TemplateID>5b5a0755-9aa2-4f54-8d40-3fd0ee4e8606</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Control.cs</DefaultName>
   </TemplateData>
