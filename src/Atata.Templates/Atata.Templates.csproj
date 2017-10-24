@@ -76,6 +76,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\Atata.NUnitTestProject.NetCore\Atata.NUnitTestProject.NetCore.csproj">
+      <Project>{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}</Project>
+      <Name>Atata.NUnitTestProject.NetCore</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Atata.PageObject\Atata.PageObject.csproj">
       <Project>{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}</Project>
       <Name>Atata.PageObject</Name>

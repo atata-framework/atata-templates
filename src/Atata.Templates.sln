@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestFixture", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBaseTestFixture", "Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestProject.NetCore", "Atata.NUnitTestProject.NetCore\Atata.NUnitTestProject.NetCore.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

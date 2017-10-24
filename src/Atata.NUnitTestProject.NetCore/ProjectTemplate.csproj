@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atata" Version="$Atata-version$" />
+    <PackageReference Include="Atata.WebDriverExtras" Version="$Atata.WebDriverExtras-version$" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$Microsoft.NET.Test.Sdk-version$" />
+    <PackageReference Include="NUnit" Version="$NUnit-version$" />
+    <PackageReference Include="NUnit3TestAdapter" Version="$NUnit3TestAdapter-version$" />
+    <PackageReference Include="Selenium.Support" Version="$Selenium.Support-version$" />
+    <PackageReference Include="Selenium.WebDriver" Version="$Selenium.WebDriver-version$" />
+  </ItemGroup>
+
+</Project>
