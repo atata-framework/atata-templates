@@ -62,6 +62,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj">
+      <Project>{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}</Project>
+      <Name>Atata.NUnitBaseTestFixture</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj">
       <Project>{6EBEB766-810A-4807-B23F-9D33F78F2E40}</Project>
       <Name>Atata.NUnitTestFixture</Name>
