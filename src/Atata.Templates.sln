@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Project", "Atata.Project\Atata.Project.csproj", "{B2567662-AC63-4C32-8626-30D598F46A4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestProject.NetFramework", "Atata.NUnitTestProject.NetFramework\Atata.NUnitTestProject.NetFramework.csproj", "{B2567662-AC63-4C32-8626-30D598F46A4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.PageObject", "Atata.PageObject\Atata.PageObject.csproj", "{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}"
 EndProject
