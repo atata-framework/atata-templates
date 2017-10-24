@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A3FFEA3-F772-445A-B391-043CAD22F2A7}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Trigger", "Atata.Trigger\Atata.Trigger.csproj", "{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Templates", "Atata.Templates\Atata.Templates.csproj", "{648ECE58-1896-46CE-887C-BA04ADF9C163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestFixture", "Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj", "{6EBEB766-810A-4807-B23F-9D33F78F2E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,8 +48,15 @@ Global
 		{648ECE58-1896-46CE-887C-BA04ADF9C163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648ECE58-1896-46CE-887C-BA04ADF9C163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648ECE58-1896-46CE-887C-BA04ADF9C163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBEB766-810A-4807-B23F-9D33F78F2E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBEB766-810A-4807-B23F-9D33F78F2E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBEB766-810A-4807-B23F-9D33F78F2E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBEB766-810A-4807-B23F-9D33F78F2E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70515CB0-770E-45F9-A7C5-5C0EA0EF894D}
 	EndGlobalSection
 EndGlobal
