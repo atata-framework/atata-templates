@@ -6,16 +6,10 @@
     <Icon>logo.png</Icon>
     <TemplateID>1f082967-6f54-4afb-ac94-4888e086e424</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Trigger.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

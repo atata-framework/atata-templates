@@ -6,16 +6,10 @@
     <Icon>logo.png</Icon>
     <TemplateID>39f3c1fc-9997-418e-be99-9ef855beb47b</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Page.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

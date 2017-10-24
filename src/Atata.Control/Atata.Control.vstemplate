@@ -6,16 +6,10 @@
     <Icon>logo.png</Icon>
     <TemplateID>5b5a0755-9aa2-4f54-8d40-3fd0ee4e8606</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Control.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

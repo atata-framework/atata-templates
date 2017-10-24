@@ -6,16 +6,10 @@
     <Icon>logo.png</Icon>
     <TemplateID>8c4ab60f-edae-4806-b980-46a9a84ab9f9</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>UITests.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
