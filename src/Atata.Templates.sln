@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.NetStandard", "Atata.ComponentsLibrary.NetStandard\Atata.ComponentsLibrary.NetStandard.csproj", "{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "Atata.BasePageObject\Atata.BasePageObject.csproj", "{3E286BAE-FA77-4BE2-BFA1-26777A44C758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E286BAE-FA77-4BE2-BFA1-26777A44C758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E286BAE-FA77-4BE2-BFA1-26777A44C758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E286BAE-FA77-4BE2-BFA1-26777A44C758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E286BAE-FA77-4BE2-BFA1-26777A44C758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

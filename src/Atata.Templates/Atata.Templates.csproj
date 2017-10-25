@@ -55,6 +55,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Atata.BasePageObject\Atata.BasePageObject.csproj">
+      <Project>{3E286BAE-FA77-4BE2-BFA1-26777A44C758}</Project>
+      <Name>Atata.BasePageObject</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Atata.ComponentsLibrary.NetFramework\Atata.ComponentsLibrary.NetFramework.csproj">
       <Project>{F560F771-7F79-40E7-B542-0AF2E7548FB8}</Project>
       <Name>Atata.ComponentsLibrary.NetFramework</Name>
