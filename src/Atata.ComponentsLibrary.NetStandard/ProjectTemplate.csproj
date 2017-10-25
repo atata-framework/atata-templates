@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atata" Version="$Atata-version$" />
+    <PackageReference Include="Atata.WebDriverExtras" Version="$Atata.WebDriverExtras-version$" />
+    <PackageReference Include="Selenium.Support" Version="$Selenium.Support-version$" />
+    <PackageReference Include="Selenium.WebDriver" Version="$Selenium.WebDriver-version$" />
+  </ItemGroup>
+
+</Project>

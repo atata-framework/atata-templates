@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Atata Components Library (.NET Standard)</Name>
+    <Description>A project for creating components to use in Atata projects.</Description>
+    <Icon>logo.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>527981b8-cbc0-4bd3-8129-cdd58bbd843c</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>false</CreateInPlace>
+    <DefaultName>AtataComponents</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem>logo.png</ProjectItem>
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$Atata-version$" Value="0.15.0"/>
+      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.13.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.6.0"/>
+      <CustomParameter Name="$Selenium.Support-version$" Value="3.6.0"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>

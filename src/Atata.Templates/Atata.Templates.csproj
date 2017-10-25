@@ -62,6 +62,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\Atata.ComponentsLibrary.NetStandard\Atata.ComponentsLibrary.NetStandard.csproj">
+      <Project>{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}</Project>
+      <Name>Atata.ComponentsLibrary.NetStandard</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Atata.Control\Atata.Control.csproj">
       <Project>{92AE5B9B-FC46-455A-A000-0BD9325BBD60}</Project>
       <Name>Atata.Control</Name>
