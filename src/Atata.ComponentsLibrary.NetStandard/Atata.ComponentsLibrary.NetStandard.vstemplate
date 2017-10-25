@@ -5,7 +5,7 @@
     <Description>A project for creating components to use in Atata projects.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>1003</SortOrder>
     <TemplateID>527981b8-cbc0-4bd3-8129-cdd58bbd843c</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <CreateInPlace>false</CreateInPlace>

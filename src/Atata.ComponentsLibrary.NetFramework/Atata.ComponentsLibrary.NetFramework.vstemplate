@@ -6,7 +6,7 @@
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>1002</SortOrder>
     <TemplateID>15e54623-eed9-43ca-a477-79540e171c26</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>AtataComponents</DefaultName>

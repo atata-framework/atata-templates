@@ -7,6 +7,7 @@
     <TemplateID>e800e555-4111-4ea5-a68d-1624e74d2efa</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1005</SortOrder>
     <DefaultName>UITestFixture.cs</DefaultName>
   </TemplateData>
   <TemplateContent>

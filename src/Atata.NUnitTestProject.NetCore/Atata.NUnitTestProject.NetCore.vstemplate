@@ -5,7 +5,7 @@
     <Description>A project for automated web testing using Atata Framework and NUnit.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>1001</SortOrder>
     <TemplateID>742295e0-760b-47db-b639-d4125d002f7e</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <CreateInPlace>true</CreateInPlace>

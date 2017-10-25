@@ -7,6 +7,7 @@
     <TemplateID>1f082967-6f54-4afb-ac94-4888e086e424</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1003</SortOrder>
     <DefaultName>Trigger.cs</DefaultName>
   </TemplateData>
   <TemplateContent>

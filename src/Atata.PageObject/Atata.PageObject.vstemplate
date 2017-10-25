@@ -7,6 +7,7 @@
     <TemplateID>39f3c1fc-9997-418e-be99-9ef855beb47b</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1000</SortOrder>
     <DefaultName>Page.cs</DefaultName>
   </TemplateData>
   <TemplateContent>

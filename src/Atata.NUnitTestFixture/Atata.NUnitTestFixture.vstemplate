@@ -7,6 +7,7 @@
     <TemplateID>8c4ab60f-edae-4806-b980-46a9a84ab9f9</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1004</SortOrder>
     <DefaultName>UITests.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
