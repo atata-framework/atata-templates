@@ -4,9 +4,23 @@
 
 The extension contains:
 
-- **Atata Test Project** project template
-- **Atata Page Object** class template
-- **Atata Control** class template
-- **Atata Trigger** class template
+- Project templates:
+  - Atata NUnit Test Project (.NET Framework)
+  - Atata NUnit Test Project (.NET Core)
+  - Atata Components Library (.NET Framework)
+  - Atata Components Library (.NET Standard)
+- Item templates:
+  - Atata Page Object
+  - Atata Base Page Object
+  - Atata Control
+  - Atata Trigger
+  - Atata NUnit Test Fixture
+  - Atata NUnit Base Test Fixture
+
+![Add New Project window](images/new-project-window.png)
+
+![Add New Item window](images/new-item-window.png)
+
+All templates are located on Visual Studio's **New Project** and **New Item** windows inside **Atata** category.
 
 *Find out more on [Atata](https://atata-framework.github.io/) and check out [Atata repository](https://github.com/atata-framework/atata).*
