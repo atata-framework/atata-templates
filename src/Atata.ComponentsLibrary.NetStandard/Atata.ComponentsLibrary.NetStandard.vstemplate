@@ -19,8 +19,8 @@
     <CustomParameters>
       <CustomParameter Name="$Atata-version$" Value="0.15.0"/>
       <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.13.0"/>
-      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.6.0"/>
-      <CustomParameter Name="$Selenium.Support-version$" Value="3.6.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.7.0"/>
+      <CustomParameter Name="$Selenium.Support-version$" Value="3.7.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>

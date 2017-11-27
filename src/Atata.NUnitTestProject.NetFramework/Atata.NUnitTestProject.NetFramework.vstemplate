@@ -23,10 +23,10 @@
     <CustomParameters>
       <CustomParameter Name="$Atata-version$" Value="0.15.0"/>
       <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.13.0"/>
-      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.6.0"/>
-      <CustomParameter Name="$Selenium.Support-version$" Value="3.6.0"/>
-      <CustomParameter Name="$NUnit-version$" Value="3.8.1"/>
-      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.8.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.7.0"/>
+      <CustomParameter Name="$Selenium.Support-version$" Value="3.7.0"/>
+      <CustomParameter Name="$NUnit-version$" Value="3.9.0"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.9.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
