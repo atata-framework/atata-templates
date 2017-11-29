@@ -1,5 +1,11 @@
 # Atata Templates
 
+[![GitHub release](https://img.shields.io/github/release/atata-framework/atata-templates.svg)](https://github.com/atata-framework/atata-templates/releases)
+[![Gitter](https://badges.gitter.im/atata-framework/atata-templates.svg)](https://gitter.im/atata-framework/atata-templates)
+[![Docs](https://img.shields.io/badge/docs-Atata_Framework-orange.svg)](https://atata-framework.github.io/)
+[![Twitter](https://img.shields.io/badge/follow-@AtataFramework-blue.svg)](https://twitter.com/AtataFramework)
+
+
 [Atata Templates](https://marketplace.visualstudio.com/items?itemName=YevgeniyShunevych.AtataTemplates) Visual Studio extension - a set of project and class templates for web automated testing using [Atata Framework](https://atata-framework.github.io/).
 
 The extension contains:
