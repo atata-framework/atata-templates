@@ -60,13 +60,6 @@
       <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net45\WebDriver.dll</HintPath>
       $endif$
     </Reference>
-    <Reference Include="WebDriver.Support, Version=$Selenium.Support-version$.0, Culture=neutral, processorArchitecture=MSIL">
-      $if$ ($targetframeworkversion$ == 4.0)
-      <HintPath>..\packages\Selenium.Support.$Selenium.Support-version$\lib\net40\WebDriver.Support.dll</HintPath>
-      $else$
-      <HintPath>..\packages\Selenium.Support.$Selenium.Support-version$\lib\net45\WebDriver.Support.dll</HintPath>
-      $endif$
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

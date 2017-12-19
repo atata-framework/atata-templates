@@ -17,10 +17,9 @@
       <ProjectItem>logo.png</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="0.15.0"/>
-      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.13.0"/>
-      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.7.0"/>
-      <CustomParameter Name="$Selenium.Support-version$" Value="3.7.0"/>
+      <CustomParameter Name="$Atata-version$" Value="0.16.0"/>
+      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.14.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.8.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
