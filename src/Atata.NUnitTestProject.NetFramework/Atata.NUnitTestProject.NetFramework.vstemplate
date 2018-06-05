@@ -21,11 +21,11 @@
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="0.16.0"/>
-      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="0.14.0"/>
-      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.8.0"/>
-      <CustomParameter Name="$NUnit-version$" Value="3.9.0"/>
-      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.9.0"/>
+      <CustomParameter Name="$Atata-version$" Value="0.17.0"/>
+      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="1.0.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.12.1"/>
+      <CustomParameter Name="$NUnit-version$" Value="3.10.1"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.10.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
