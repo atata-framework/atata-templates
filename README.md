@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/atata-framework/atata-templates.svg)](https://github.com/atata-framework/atata-templates/releases)
 [![Gitter](https://badges.gitter.im/atata-framework/atata-templates.svg)](https://gitter.im/atata-framework/atata-templates)
-[![Docs](https://img.shields.io/badge/docs-Atata_Framework-orange.svg)](https://atata-framework.github.io/)
+[![Docs](https://img.shields.io/badge/docs-Atata_Framework-orange.svg)](https://atata-framework.github.io)
 [![Twitter](https://img.shields.io/badge/follow-@AtataFramework-blue.svg)](https://twitter.com/AtataFramework)
 
 
@@ -23,10 +23,10 @@ The extension contains:
   - Atata NUnit Test Fixture
   - Atata NUnit Base Test Fixture
 
-![Add New Project window](images/new-project-window.png)
+![Add New Project window](images/new-project-window.png?v2)
 
-![Add New Item window](images/new-item-window.png)
+![Add New Item window](images/new-item-window.png?v2)
 
 All templates are located on Visual Studio's **New Project** and **New Item** windows inside **Atata** category.
 
-*Find out more on [Atata](https://atata-framework.github.io/) and check out [Atata repository](https://github.com/atata-framework/atata).*
+*Find out more on [Atata](https://atata-framework.github.io) and check out [Atata repository](https://github.com/atata-framework/atata).*
