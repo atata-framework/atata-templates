@@ -9,7 +9,7 @@ namespace $rootnamespace$
         [SetUp]
         public void SetUp()
         {
-            // Find information about AtataContext set-up on https://atata-framework.github.io/getting-started/#set-up.
+            // Find information about AtataContext set-up on https://atata.io/getting-started/#set-up
             AtataContext.Configure().
                 //UseChrome().
                 //    WithArguments("start-maximized").
