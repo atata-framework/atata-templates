@@ -9,6 +9,7 @@
     <SortOrder>1000</SortOrder>
     <TemplateID>e6333254-2b09-4761-9644-e894ebbc1093</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>true</CreateInPlace>
     <DefaultName>AtataUITests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>

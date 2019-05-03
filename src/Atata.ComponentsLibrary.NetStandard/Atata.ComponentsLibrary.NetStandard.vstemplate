@@ -8,7 +8,7 @@
     <SortOrder>1003</SortOrder>
     <TemplateID>527981b8-cbc0-4bd3-8129-cdd58bbd843c</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <CreateInPlace>false</CreateInPlace>
+    <CreateInPlace>true</CreateInPlace>
     <DefaultName>AtataComponents</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>

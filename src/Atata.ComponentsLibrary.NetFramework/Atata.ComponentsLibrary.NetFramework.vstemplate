@@ -9,6 +9,7 @@
     <SortOrder>1002</SortOrder>
     <TemplateID>15e54623-eed9-43ca-a477-79540e171c26</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>true</CreateInPlace>
     <DefaultName>AtataComponents</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
