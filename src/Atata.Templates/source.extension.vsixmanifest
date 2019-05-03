@@ -4,7 +4,7 @@
         <Identity Id="AtataTemplates" Version="1.0.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
         <DisplayName>Atata Templates</DisplayName>
         <Description xml:space="preserve">A set of project and class templates for automated web testing using Atata Framework.</Description>
-        <MoreInfo>https://atata-framework.github.io</MoreInfo>
+        <MoreInfo>https://atata.io</MoreInfo>
         <License>license.txt</License>
         <ReleaseNotes>https://atata-framework.github.io/blog/2018/10/17/atata-templates-1.0.0-released/</ReleaseNotes>
         <Icon>logo.png</Icon>
