@@ -18,6 +18,8 @@ namespace $safeprojectname$
                 UseNUnitTestName().
                 AddNUnitTestContextLogging().
                 LogNUnitError().
+                UseAssertionExceptionType<NUnit.Framework.AssertionException>().
+                UseNUnitAggregateAssertionStrategy().
                 Build();
         }
 
