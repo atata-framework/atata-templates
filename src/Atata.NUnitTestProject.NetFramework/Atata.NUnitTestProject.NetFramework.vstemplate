@@ -12,6 +12,10 @@
     <CreateInPlace>true</CreateInPlace>
     <DefaultName>AtataUITests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>Atata</ProjectTypeTag>
+    <ProjectTypeTag>test</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
