@@ -10,17 +10,13 @@ namespace $safeprojectname$
         public void SetUp()
         {
             // Find information about AtataContext set-up on https://atata.io/getting-started/#set-up
-            AtataContext.Configure().
-                //UseChrome().
-                //    WithArguments("start-maximized").
-                //UseBaseUrl("SITE_URL").
-                UseCulture("en-us").
-                UseNUnitTestName().
-                AddNUnitTestContextLogging().
-                LogNUnitError().
-                UseAssertionExceptionType<NUnit.Framework.AssertionException>().
-                UseNUnitAggregateAssertionStrategy().
-                Build();
+            AtataContext.Configure()
+                //.UseChrome()
+                //    .WithArguments("start-maximized")
+                //.UseBaseUrl("SITE_URL")
+                .UseCulture("en-US")
+                .UseAllNUnitFeatures()
+                .Build();
         }
 
         [TearDown]
