@@ -90,6 +90,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\Atata.NUnitAdvancedTestProject.NetCore\Atata.NUnitAdvancedTestProject.NetCore.csproj">
+      <Project>{45534220-0b3c-4a2a-a72e-71ba0cde926b}</Project>
+      <Name>Atata.NUnitAdvancedTestProject.NetCore</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj">
       <Project>{6EBEB766-810A-4807-B23F-9D33F78F2E40}</Project>
       <Name>Atata.NUnitTestFixture</Name>

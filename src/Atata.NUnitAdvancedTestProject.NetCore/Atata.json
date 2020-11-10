@@ -1,0 +1,20 @@
+{
+  "drivers": [
+    {
+      "type": "chrome",
+      "alias": "chrome",
+      "options": {
+        "arguments": [ "start-maximized" ]
+      }
+    },
+    {
+      "type": "chrome",
+      "alias": "chrome-headless",
+      "options": {
+        "arguments": [ "headless", "window-size=1920,1080" ]
+      }
+    }
+  ],
+  "culture": "en-US",
+  "useAllNUnitFeatures": true
+}
