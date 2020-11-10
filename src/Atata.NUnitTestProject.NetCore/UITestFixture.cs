@@ -13,7 +13,6 @@ namespace $safeprojectname$
             AtataContext.Configure()
                 //.UseChrome()
                 //    .WithArguments("start-maximized")
-                //    .WithLocalDriverPath() // It is needed for .NET Core when you reference driver as a NuGet package.
                 //.UseBaseUrl("SITE_URL")
                 .UseCulture("en-US")
                 .UseAllNUnitFeatures()
