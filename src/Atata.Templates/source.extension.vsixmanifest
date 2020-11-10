@@ -20,8 +20,8 @@
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.NUnitTestProject.NetFramework" d:TargetPath="|Atata.NUnitTestProject.NetFramework;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.NUnitTestProject.NetCore" d:TargetPath="|Atata.NUnitTestProject.NetCore;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.NUnitBasicTestProject.NetFramework" d:TargetPath="|Atata.NUnitBasicTestProject.NetFramework;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.NUnitBasicTestProject.NetCore" d:TargetPath="|Atata.NUnitBasicTestProject.NetCore;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.NUnitAdvancedTestProject.NetCore" d:TargetPath="|Atata.NUnitAdvancedTestProject.NetCore;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.ComponentsLibrary.NetFramework" d:TargetPath="|Atata.ComponentsLibrary.NetFramework;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Atata.ComponentsLibrary.NetStandard" d:TargetPath="|Atata.ComponentsLibrary.NetStandard;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />

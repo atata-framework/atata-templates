@@ -104,9 +104,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Atata.NUnitTestProject.NetCore\Atata.NUnitTestProject.NetCore.csproj">
+    <ProjectReference Include="..\Atata.NUnitBasicTestProject.NetCore\Atata.NUnitBasicTestProject.NetCore.csproj">
       <Project>{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}</Project>
-      <Name>Atata.NUnitTestProject.NetCore</Name>
+      <Name>Atata.NUnitBasicTestProject.NetCore</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
@@ -118,9 +118,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Atata.NUnitTestProject.NetFramework\Atata.NUnitTestProject.NetFramework.csproj">
+    <ProjectReference Include="..\Atata.NUnitBasicTestProject.NetFramework\Atata.NUnitBasicTestProject.NetFramework.csproj">
       <Project>{B2567662-AC63-4C32-8626-30D598F46A4A}</Project>
-      <Name>Atata.NUnitTestProject.NetFramework</Name>
+      <Name>Atata.NUnitBasicTestProject.NetFramework</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
@@ -149,11 +149,4 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
