@@ -9,7 +9,7 @@ namespace $safeprojectname$
         [OneTimeSetUp]
         public void GlobalSetUp()
         {
-            string environmentAlias = TestContext.Parameters.Get("TestEnvironment", "local");
+            string testEnvironmentAlias = TestContext.Parameters.Get("TestEnvironment", "local");
             string driverAlias = TestContext.Parameters.Get("DriverAlias", DriverAliases.Chrome);
 
             // Find information on AtataContext set-up on https://atata.io/getting-started/#set-up
@@ -18,7 +18,7 @@ namespace $safeprojectname$
             //       For example, install Selenium.WebDriver.ChromeDriver NuGet package.
             AtataContext.GlobalConfiguration
                 .ApplyJsonConfig<AtataConfig>()
-                .ApplyJsonConfig<AtataConfig>(environmentAlias: environmentAlias)
+                .ApplyJsonConfig<AtataConfig>(environmentAlias: testEnvironmentAlias)
                 .UseDriver(driverAlias);
         }
     }
