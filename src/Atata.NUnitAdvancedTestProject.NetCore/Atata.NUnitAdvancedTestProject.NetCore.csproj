@@ -12,8 +12,8 @@
     <ProjectGuid>{45534220-0B3C-4A2A-A72E-71BA0CDE926B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Atata.NUnitRobustTestProject.NetCore</RootNamespace>
-    <AssemblyName>Atata.NUnitRobustTestProject.NetCore</AssemblyName>
+    <RootNamespace>Atata.NUnitAdvancedTestProject.NetCore</RootNamespace>
+    <AssemblyName>Atata.NUnitAdvancedTestProject.NetCore</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -80,11 +80,4 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
