@@ -13,10 +13,11 @@ Visual Studio extension - a set of project and class templates for web automated
 The extension contains:
 
 - Project templates:
-  - Atata NUnit Test Project (.NET Framework)
-  - Atata NUnit Test Project (.NET Core)
-  - Atata Components Library (.NET Framework)
+  - Atata NUnit Basic Test Project (.NET Core)
+  - Atata NUnit Basic Test Project (.NET Framework)
+  - Atata NUnit Advanced Test Project (.NET Core)
   - Atata Components Library (.NET Standard)
+  - Atata Components Library (.NET Framework)
 - Item templates:
   - Atata Page Object
   - Atata Base Page Object
@@ -25,7 +26,7 @@ The extension contains:
   - Atata NUnit Test Fixture
   - Atata NUnit Base Test Fixture
 
-![Add New Project window](images/new-project-window.png?v2)
+![Add New Project window](images/new-project-window.png?v3)
 
 ![Add New Item window](images/new-item-window.png?v2)
 
