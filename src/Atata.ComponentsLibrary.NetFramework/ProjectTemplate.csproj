@@ -40,25 +40,13 @@
     <Reference Include="System.Data"/>
     <Reference Include="System.Xml"/>
     <Reference Include="Atata, Version=$Atata-version$.0, Culture=neutral, processorArchitecture=MSIL">
-      $if$ ($targetframeworkversion$ == 4.0)
-      <HintPath>..\packages\Atata.$Atata-version$\lib\net40\Atata.dll</HintPath>
-      $else$
-      <HintPath>..\packages\Atata.$Atata-version$\lib\net45\Atata.dll</HintPath>
-      $endif$
+      <HintPath>..\packages\Atata.$Atata-version$\lib\net$if$($targetframeworkversion$ == 4.0)40$endif$$if$($targetframeworkversion$ == 4.5)45$endif$$if$($targetframeworkversion$ == 4.5.1)45$endif$$if$($targetframeworkversion$ == 4.5.2)45$endif$$if$($targetframeworkversion$ >= 4.6)46$endif$\Atata.dll</HintPath>
     </Reference>
     <Reference Include="Atata.WebDriverExtras, Version=$Atata.WebDriverExtras-version$.0, Culture=neutral, processorArchitecture=MSIL">
-      $if$ ($targetframeworkversion$ == 4.0)
-      <HintPath>..\packages\Atata.WebDriverExtras.$Atata.WebDriverExtras-version$\lib\net40\Atata.WebDriverExtras.dll</HintPath>
-      $else$
-      <HintPath>..\packages\Atata.WebDriverExtras.$Atata.WebDriverExtras-version$\lib\net45\Atata.WebDriverExtras.dll</HintPath>
-      $endif$
+      <HintPath>..\packages\Atata.WebDriverExtras.$Atata.WebDriverExtras-version$\lib\net$if$($targetframeworkversion$ == 4.0)40$endif$$if$($targetframeworkversion$ == 4.5)45$endif$$if$($targetframeworkversion$ == 4.5.1)45$endif$$if$($targetframeworkversion$ == 4.5.2)45$endif$$if$($targetframeworkversion$ >= 4.6)46$endif$\Atata.WebDriverExtras.dll</HintPath>
     </Reference>
     <Reference Include="WebDriver, Version=$Selenium.WebDriver-version$.0, Culture=neutral, processorArchitecture=MSIL">
-      $if$ ($targetframeworkversion$ == 4.0)
-      <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net40\WebDriver.dll</HintPath>
-      $else$
-      <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net45\WebDriver.dll</HintPath>
-      $endif$
+      <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net$if$($targetframeworkversion$ == 4.0)40$else$45$endif$\WebDriver.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -68,4 +56,4 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
