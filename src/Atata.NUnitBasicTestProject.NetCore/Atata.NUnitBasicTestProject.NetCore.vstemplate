@@ -21,7 +21,6 @@
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="false">NUnitSettings.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false">AtataSettings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
