@@ -17,8 +17,7 @@ namespace $safeprojectname$
                     .WithArguments("start-maximized")
                 .UseBaseUrl("https://atata.io/")
                 .UseCulture("en-US")
-                .UseAllNUnitFeatures()
-                .Build();
+                .UseAllNUnitFeatures();
         }
     }
 }
