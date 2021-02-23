@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SampleTests.cs" />
     <None Include="SetUpFixture.cs" />
     <None Include="Atata.json" />
     <None Include="Atata.local.json" />
