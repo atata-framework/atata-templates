@@ -4,8 +4,9 @@ using NUnit.Framework;
 namespace $safeprojectname$
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.Self)]
     public class UITestFixture
-    {
+{
         [SetUp]
         public void SetUp()
         {

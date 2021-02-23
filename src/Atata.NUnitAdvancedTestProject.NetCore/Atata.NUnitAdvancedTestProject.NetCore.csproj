@@ -60,7 +60,6 @@
     <None Include="Atata.local.json" />
     <None Include="AtataConfig.cs" />
     <None Include="local.runsettings" />
-    <None Include="NUnitSettings.cs" />
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>

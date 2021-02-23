@@ -20,7 +20,6 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false">NUnitSettings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">SampleTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">SetUpFixture.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>

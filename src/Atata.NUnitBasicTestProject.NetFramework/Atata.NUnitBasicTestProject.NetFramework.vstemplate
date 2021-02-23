@@ -20,7 +20,6 @@
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false">NUnitSettings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
       <ProjectItem ReplaceParameters="true">SampleTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">SetUpFixture.cs</ProjectItem>

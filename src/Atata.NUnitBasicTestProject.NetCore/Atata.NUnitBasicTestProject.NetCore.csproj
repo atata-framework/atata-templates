@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="UITestFixture.cs" />
-    <None Include="NUnitSettings.cs" />
     <None Include="ProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>
