@@ -46,6 +46,9 @@
     <Reference Include="Atata.WebDriverExtras, Version=$Atata.WebDriverExtras-version$.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Atata.WebDriverExtras.$Atata.WebDriverExtras-version$\lib\net$if$($targetframeworkversion$ == 4.0)40$endif$$if$($targetframeworkversion$ == 4.5)45$endif$$if$($targetframeworkversion$ == 4.5.1)45$endif$$if$($targetframeworkversion$ == 4.5.2)45$endif$$if$($targetframeworkversion$ >= 4.6)46$endif$\Atata.WebDriverExtras.dll</HintPath>
     </Reference>
+    <Reference Include="Atata.WebDriverSetup, Version=$Atata.WebDriverSetup-version$.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Atata.WebDriverSetup.$Atata.WebDriverSetup-version$\lib\netstandard2.0\Atata.WebDriverSetup.dll</HintPath>
+    </Reference>
     <Reference Include="WebDriver, Version=$Selenium.WebDriver-version$.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net$if$($targetframeworkversion$ == 4.0)40$else$45$endif$\WebDriver.dll</HintPath>
     </Reference>

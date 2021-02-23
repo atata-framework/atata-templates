@@ -14,12 +14,12 @@ namespace $safeprojectname$
 
             // Find information on AtataContext set-up on https://atata.io/getting-started/#set-up
             // Find information on Atata JSON configuration on https://github.com/atata-framework/atata-configuration-json
-            // NOTE: Driver configuration is required.
-            //       For example, install Selenium.WebDriver.ChromeDriver NuGet package.
             AtataContext.GlobalConfiguration
                 .ApplyJsonConfig<AtataConfig>()
                 .ApplyJsonConfig<AtataConfig>(environmentAlias: testEnvironmentAlias)
                 .UseDriver(driverAlias);
+
+            AtataContext.GlobalConfiguration.AutoSetUpDriverToUse();
         }
     }
 }
