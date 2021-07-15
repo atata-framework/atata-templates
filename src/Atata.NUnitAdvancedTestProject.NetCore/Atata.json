@@ -16,5 +16,11 @@
     }
   ],
   "culture": "en-US",
-  "useAllNUnitFeatures": true
+  "useAllNUnitFeatures": true,
+  "screenshotConsumers": [
+    {
+      "type": "file",
+      "folderPath": "{artifacts}"
+    }
+  ]
 }

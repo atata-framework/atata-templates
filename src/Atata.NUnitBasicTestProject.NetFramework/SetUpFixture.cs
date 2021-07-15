@@ -15,7 +15,9 @@ namespace $safeprojectname$
                     .WithArguments("start-maximized")
                 .UseBaseUrl("https://atata.io/")
                 .UseCulture("en-US")
-                .UseAllNUnitFeatures();
+                .UseAllNUnitFeatures()
+                .AddScreenshotFileSaving()
+                    .WithArtifactsFolderPath();
 
             AtataContext.GlobalConfiguration.AutoSetUpDriverToUse();
         }
