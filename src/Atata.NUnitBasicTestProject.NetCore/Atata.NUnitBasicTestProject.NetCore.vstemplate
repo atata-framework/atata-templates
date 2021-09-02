@@ -30,7 +30,7 @@
       <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="1.2.0"/>
       <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.141.0"/>
       <CustomParameter Name="$NUnit-version$" Value="3.13.2"/>
-      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.0.0"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.17.0"/>
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="16.11.0"/>
     </CustomParameters>
   </TemplateContent>
