@@ -23,7 +23,7 @@
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Page1.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="1.12.0"/>
+      <CustomParameter Name="$Atata-version$" Value="1.13.0"/>
       <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="1.5.0"/>
       <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.141.0"/>
     </CustomParameters>
