@@ -25,9 +25,9 @@
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="1.13.0"/>
+      <CustomParameter Name="$Atata-version$" Value="1.13.1"/>
       <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="1.5.0"/>
-      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="1.2.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="1.2.1"/>
       <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.141.0"/>
       <CustomParameter Name="$NUnit-version$" Value="3.13.2"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="3.17.0"/>
