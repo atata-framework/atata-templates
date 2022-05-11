@@ -25,14 +25,12 @@
   "useAllNUnitFeatures": true,
   "logConsumers": [
     {
-      "type": "nlog-file",
-      "folderPath": "{artifacts}"
+      "type": "nlog-file"
     }
   ],
   "screenshotConsumers": [
     {
-      "type": "file",
-      "folderPath": "{artifacts}"
+      "type": "file"
     }
   ]
 }

@@ -16,8 +16,7 @@ namespace $safeprojectname$
                 .UseBaseUrl("https://atata.io/")
                 .UseCulture("en-US")
                 .UseAllNUnitFeatures()
-                .AddScreenshotFileSaving()
-                    .WithArtifactsFolderPath();
+                .ScreenshotConsumers.AddFile();
 
             AtataContext.GlobalConfiguration.AutoSetUpDriverToUse();
         }

@@ -23,9 +23,9 @@
       <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="1.14.0"/>
-      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="1.5.0"/>
-      <CustomParameter Name="$Selenium.WebDriver-version$" Value="3.141.0"/>
+      <CustomParameter Name="$Atata-version$" Value="2.0.0"/>
+      <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="2.0.0"/>
+      <CustomParameter Name="$Selenium.WebDriver-version$" Value="4.1.1"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
