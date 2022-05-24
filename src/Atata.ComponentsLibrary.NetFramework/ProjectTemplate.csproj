@@ -46,7 +46,7 @@
       <HintPath>..\packages\Atata.WebDriverExtras.$Atata.WebDriverExtras-version$\lib\netstandard2.0\Atata.WebDriverExtras.dll</HintPath>
     </Reference>
     <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\netstandard2.0\WebDriver.dll</HintPath>
+      <HintPath>..\packages\Selenium.WebDriver.$Selenium.WebDriver-version$\lib\net46\WebDriver.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
