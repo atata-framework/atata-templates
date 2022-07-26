@@ -5,34 +5,34 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A3FFEA3-F772-445A-B391-043CAD22F2A7}"
 	ProjectSection(SolutionItems) = preProject
-		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
-		logo.png = logo.png
-		..\README.md = ..\README.md
+		src\CommonAssemblyInfo.cs = src\CommonAssemblyInfo.cs
+		src\logo.png = src\logo.png
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.NetFramework", "Atata.NUnitBasicTestProject.NetFramework\Atata.NUnitBasicTestProject.NetFramework.csproj", "{B2567662-AC63-4C32-8626-30D598F46A4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.NetFramework", "src\Atata.NUnitBasicTestProject.NetFramework\Atata.NUnitBasicTestProject.NetFramework.csproj", "{B2567662-AC63-4C32-8626-30D598F46A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.PageObject", "Atata.PageObject\Atata.PageObject.csproj", "{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.PageObject", "src\Atata.PageObject\Atata.PageObject.csproj", "{8F0A0B6C-D6C0-46DD-891E-2791C6D92C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Control", "Atata.Control\Atata.Control.csproj", "{92AE5B9B-FC46-455A-A000-0BD9325BBD60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Control", "src\Atata.Control\Atata.Control.csproj", "{92AE5B9B-FC46-455A-A000-0BD9325BBD60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Trigger", "Atata.Trigger\Atata.Trigger.csproj", "{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Trigger", "src\Atata.Trigger\Atata.Trigger.csproj", "{6AAC5762-0E9A-4584-B6C2-4C3C249A8791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Templates", "Atata.Templates\Atata.Templates.csproj", "{648ECE58-1896-46CE-887C-BA04ADF9C163}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Templates", "src\Atata.Templates\Atata.Templates.csproj", "{648ECE58-1896-46CE-887C-BA04ADF9C163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestFixture", "Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj", "{6EBEB766-810A-4807-B23F-9D33F78F2E40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestFixture", "src\Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj", "{6EBEB766-810A-4807-B23F-9D33F78F2E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBaseTestFixture", "Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBaseTestFixture", "src\Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.NetCore", "Atata.NUnitBasicTestProject.NetCore\Atata.NUnitBasicTestProject.NetCore.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.NetCore", "src\Atata.NUnitBasicTestProject.NetCore\Atata.NUnitBasicTestProject.NetCore.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.NetFramework", "Atata.ComponentsLibrary.NetFramework\Atata.ComponentsLibrary.NetFramework.csproj", "{F560F771-7F79-40E7-B542-0AF2E7548FB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.NetFramework", "src\Atata.ComponentsLibrary.NetFramework\Atata.ComponentsLibrary.NetFramework.csproj", "{F560F771-7F79-40E7-B542-0AF2E7548FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.NetStandard", "Atata.ComponentsLibrary.NetStandard\Atata.ComponentsLibrary.NetStandard.csproj", "{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.ComponentsLibrary.NetStandard", "src\Atata.ComponentsLibrary.NetStandard\Atata.ComponentsLibrary.NetStandard.csproj", "{A51B20FE-6DA8-4B1D-BFA5-817E6E178169}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "Atata.BasePageObject\Atata.BasePageObject.csproj", "{3E286BAE-FA77-4BE2-BFA1-26777A44C758}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "src\Atata.BasePageObject\Atata.BasePageObject.csproj", "{3E286BAE-FA77-4BE2-BFA1-26777A44C758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.NetCore", "Atata.NUnitAdvancedTestProject.NetCore\Atata.NUnitAdvancedTestProject.NetCore.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.NetCore", "src\Atata.NUnitAdvancedTestProject.NetCore\Atata.NUnitAdvancedTestProject.NetCore.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
