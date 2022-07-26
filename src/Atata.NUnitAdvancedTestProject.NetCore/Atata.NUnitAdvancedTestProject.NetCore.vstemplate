@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Atata NUnit Advanced Test Project (.NET Core)</Name>
-    <Description>An advanced project for automated web testing using Atata Framework and NUnit.</Description>
+    <Description>An advanced project for automated web testing using Atata Framework and NUnit with configuration files.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>1002</SortOrder>
@@ -29,11 +29,11 @@
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="2.0.1"/>
-      <CustomParameter Name="$Atata.Configuration.Json-version$" Value="2.0.0"/>
-      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.1.0"/>
+      <CustomParameter Name="$Atata-version$" Value="2.1.0"/>
+      <CustomParameter Name="$Atata.Configuration.Json-version$" Value="2.1.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.3.0"/>
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.2.0"/>
-      <CustomParameter Name="$NLog-version$" Value="5.0.0"/>
+      <CustomParameter Name="$NLog-version$" Value="5.0.1"/>
       <CustomParameter Name="$NUnit-version$" Value="3.13.3"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.2.1"/>
     </CustomParameters>
