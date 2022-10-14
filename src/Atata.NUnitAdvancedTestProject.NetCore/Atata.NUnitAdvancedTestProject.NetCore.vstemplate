@@ -29,7 +29,7 @@
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="2.2.0"/>
+      <CustomParameter Name="$Atata-version$" Value="2.3.0"/>
       <CustomParameter Name="$Atata.Configuration.Json-version$" Value="2.1.0"/>
       <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.4.0"/>
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.3.2"/>
