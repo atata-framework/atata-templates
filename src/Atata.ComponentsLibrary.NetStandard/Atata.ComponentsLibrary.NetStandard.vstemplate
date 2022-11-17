@@ -23,7 +23,7 @@
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Page1.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="2.3.0"/>
+      <CustomParameter Name="$Atata-version$" Value="2.4.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
