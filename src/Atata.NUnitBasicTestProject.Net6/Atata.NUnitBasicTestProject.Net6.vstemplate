@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Atata NUnit Basic Test Project (.NET 6.0)</Name>
+    <Description>A basic project for automated web testing using Atata Framework and NUnit.</Description>
+    <Icon>logo.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1001</SortOrder>
+    <TemplateID>9bb6e521-34dd-4bb9-b047-5048096f297d</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>true</CreateInPlace>
+    <DefaultName>AtataUITests</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+    <ProjectTypeTag>Atata</ProjectTypeTag>
+    <ProjectTypeTag>test</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false">GlobalUsings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">SampleTests.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">SetUpFixture.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$Atata-version$" Value="2.7.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.5.0"/>
+      <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.4.1"/>
+      <CustomParameter Name="$NUnit-version$" Value="3.13.3"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.3.1"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>
