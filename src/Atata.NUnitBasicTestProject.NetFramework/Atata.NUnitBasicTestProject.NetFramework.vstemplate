@@ -28,7 +28,7 @@
     <CustomParameters>
       <CustomParameter Name="$Atata-version$" Value="2.8.1"/>
       <CustomParameter Name="$Atata.WebDriverExtras-version$" Value="2.2.0"/>
-      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.6.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.7.0"/>
       <CustomParameter Name="$Selenium.WebDriver-version$" Value="4.10.0"/>
       <CustomParameter Name="$NUnit-version$" Value="3.13.3"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.5.0"/>
