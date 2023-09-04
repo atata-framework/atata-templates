@@ -22,11 +22,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitTestFixture", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBaseTestFixture", "src\Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.NetCore", "src\Atata.NUnitBasicTestProject.NetCore\Atata.NUnitBasicTestProject.NetCore.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net7", "src\Atata.NUnitBasicTestProject.Net7\Atata.NUnitBasicTestProject.Net7.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "src\Atata.BasePageObject\Atata.BasePageObject.csproj", "{3E286BAE-FA77-4BE2-BFA1-26777A44C758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.NetCore", "src\Atata.NUnitAdvancedTestProject.NetCore\Atata.NUnitAdvancedTestProject.NetCore.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net7", "src\Atata.NUnitAdvancedTestProject.Net7\Atata.NUnitAdvancedTestProject.Net7.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net6", "src\Atata.NUnitBasicTestProject.Net6\Atata.NUnitBasicTestProject.Net6.csproj", "{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}"
 EndProject

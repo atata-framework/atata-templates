@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Atata NUnit Basic Test Project (.NET 6.0)</Name>
+    <Name>Atata NUnit Basic Test Project (.NET 6)</Name>
     <Description>A basic project for automated web testing using Atata Framework and NUnit.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>

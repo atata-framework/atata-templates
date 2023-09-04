@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Atata NUnit Advanced Test Project (.NET Core)</Name>
+    <Name>Atata NUnit Advanced Test Project (.NET 7)</Name>
     <Description>An advanced project for automated web testing using Atata Framework and NUnit with configuration files.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
@@ -23,6 +23,7 @@
       <ProjectItem ReplaceParameters="false">Atata.json</ProjectItem>
       <ProjectItem ReplaceParameters="false">Atata.local.json</ProjectItem>
       <ProjectItem ReplaceParameters="true">AtataConfig.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false">GlobalUsings.cs</ProjectItem>
       <ProjectItem ReplaceParameters="false">local.runsettings</ProjectItem>
       <ProjectItem ReplaceParameters="true">SampleTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">SetUpFixture.cs</ProjectItem>
