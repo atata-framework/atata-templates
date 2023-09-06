@@ -9,7 +9,7 @@ public class SetUpFixture
         string testEnvironmentAlias = TestContext.Parameters.Get("TestEnvironment", "local");
         string driverAlias = TestContext.Parameters.Get("DriverAlias", DriverAliases.Chrome);
 
-        // Find information on AtataContext set-up on https://atata.io/getting-started/#set-up
+        // Find information on AtataContext configuration on https://atata.io/getting-started/#configuration
         // Find information on Atata JSON configuration on https://github.com/atata-framework/atata-configuration-json
         AtataContext.GlobalConfiguration
             .ApplyJsonConfig<AtataConfig>()

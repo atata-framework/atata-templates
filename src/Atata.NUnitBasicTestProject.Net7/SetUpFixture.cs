@@ -6,7 +6,7 @@ public class SetUpFixture
     [OneTimeSetUp]
     public void GlobalSetUp()
     {
-        // Find information about AtataContext set-up on https://atata.io/getting-started/#set-up
+        // Find information about AtataContext configuration on https://atata.io/getting-started/#configuration
         AtataContext.GlobalConfiguration
             .UseChrome()
                 .WithArguments("start-maximized")
