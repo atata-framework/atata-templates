@@ -4,7 +4,7 @@ namespace $rootnamespace$
 {
     using _ = $safeitemrootname$;
 
-    public class $safeitemrootname$ : Page<_>
+    public sealed class $safeitemrootname$ : Page<_>
     {
     }
 }

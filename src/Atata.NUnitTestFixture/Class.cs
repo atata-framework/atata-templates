@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace $rootnamespace$
 {
-    public class $safeitemrootname$ : UITestFixture
+    public sealed class $safeitemrootname$ : UITestFixture
     {
         [Test]
         public void Test()

@@ -2,7 +2,7 @@
 
 namespace $rootnamespace$
 {
-    public class $safeitemrootname$ : TriggerAttribute
+    public sealed class $safeitemrootname$ : TriggerAttribute
     {
         public $safeitemrootname$(TriggerEvents on, TriggerPriority priority = TriggerPriority.Medium)
             : base(on, priority)

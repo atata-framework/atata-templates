@@ -1,6 +1,6 @@
 ﻿namespace $safeprojectname$;
 
-public class SampleTests : UITestFixture
+public sealed class SampleTests : UITestFixture
 {
     [Test]
     public void SampleTest() =>
