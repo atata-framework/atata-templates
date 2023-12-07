@@ -1,6 +1,5 @@
 ﻿namespace $safeprojectname$;
 
-[TestFixture]
 [Parallelizable(ParallelScope.Self)]
 public class UITestFixture
 {

@@ -3,7 +3,6 @@ using NUnit.Framework;
 
 namespace $rootnamespace$
 {
-    [TestFixture]
     [Parallelizable(ParallelScope.Self)]
     public class $safeitemrootname$
     {
