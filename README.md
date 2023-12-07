@@ -13,9 +13,9 @@ The extension contains:
 
 - Project templates:
   - Atata NUnit Basic Test Project (.NET 6)
-  - Atata NUnit Basic Test Project (.NET 7)
+  - Atata NUnit Basic Test Project (.NET 8)
   - Atata NUnit Advanced Test Project (.NET 6)
-  - Atata NUnit Advanced Test Project (.NET 7)
+  - Atata NUnit Advanced Test Project (.NET 8)
 - Item templates:
   - Atata Page Object
   - Atata Base Page Object
@@ -24,7 +24,7 @@ The extension contains:
   - Atata NUnit Test Fixture
   - Atata NUnit Base Test Fixture
 
-![Add New Project window](images/new-project-window.png?v4)
+![Add New Project window](images/new-project-window.png?v5)
 
 ![Add New Item window](images/new-item-window.png?v2)
 
