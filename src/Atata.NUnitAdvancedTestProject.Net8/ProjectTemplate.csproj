@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <NoWarn>CS8618</NoWarn>
@@ -9,10 +9,21 @@
 
   <ItemGroup>
     <PackageReference Include="Atata" Version="$Atata-version$" />
+    <PackageReference Include="Atata.Configuration.Json" Version="$Atata.Configuration.Json-version$" />
     <PackageReference Include="Atata.WebDriverSetup" Version="$Atata.WebDriverSetup-version$" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$Microsoft.NET.Test.Sdk-version$" />
+    <PackageReference Include="NLog" Version="$NLog-version$" />
     <PackageReference Include="NUnit" Version="$NUnit-version$" />
     <PackageReference Include="NUnit3TestAdapter" Version="$NUnit3TestAdapter-version$" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Atata.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Atata.local.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
 </Project>
