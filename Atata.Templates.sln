@@ -5,6 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A3FFEA3-F772-445A-B391-043CAD22F2A7}"
 	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
 		src\CommonAssemblyInfo.cs = src\CommonAssemblyInfo.cs
 		src\logo.png = src\logo.png
 		README.md = README.md
