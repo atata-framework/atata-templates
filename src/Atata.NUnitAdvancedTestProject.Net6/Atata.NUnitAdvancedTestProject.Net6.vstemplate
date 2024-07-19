@@ -30,10 +30,10 @@
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
-      <CustomParameter Name="$Atata-version$" Value="3.1.0"/>
+      <CustomParameter Name="$Atata-version$" Value="3.2.0"/>
       <CustomParameter Name="$Atata.Configuration.Json-version$" Value="3.0.0"/>
-      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.10.0"/>
-      <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.9.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.11.0"/>
+      <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.10.0"/>
       <CustomParameter Name="$NLog-version$" Value="5.3.2"/>
       <CustomParameter Name="$NUnit-version$" Value="4.1.0"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.5.0"/>
