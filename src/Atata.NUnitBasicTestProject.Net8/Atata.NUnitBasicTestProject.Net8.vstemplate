@@ -27,7 +27,7 @@
     </Project>
     <CustomParameters>
       <CustomParameter Name="$Atata-version$" Value="3.2.0"/>
-      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.11.0"/>
+      <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="2.13.0"/>
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.10.0"/>
       <CustomParameter Name="$NUnit-version$" Value="4.1.0"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.5.0"/>
