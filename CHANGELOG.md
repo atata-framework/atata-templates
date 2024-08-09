@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Upgrade Atata.WebDriverSetup package reference to v2.13.0.
+- Upgrade NUnit3TestAdapter package reference to v4.6.0.
 
 ## [3.2.0] - 2024-07-19
 

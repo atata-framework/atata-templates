@@ -36,7 +36,7 @@
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.10.0"/>
       <CustomParameter Name="$NLog-version$" Value="5.3.2"/>
       <CustomParameter Name="$NUnit-version$" Value="4.1.0"/>
-      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.5.0"/>
+      <CustomParameter Name="$NUnit3TestAdapter-version$" Value="4.6.0"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
