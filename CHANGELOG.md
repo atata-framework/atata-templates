@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add "disable-search-engine-choice-screen" Chrome argument to Atata configuration.
+
 ### Changed
 
 - Upgrade Atata.WebDriverSetup package reference to v2.13.0.
