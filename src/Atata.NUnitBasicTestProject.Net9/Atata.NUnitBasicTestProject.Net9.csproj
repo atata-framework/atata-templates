@@ -12,8 +12,8 @@
     <ProjectGuid>{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Atata.NUnitBasicTestProject.Net6</RootNamespace>
-    <AssemblyName>Atata.NUnitBasicTestProject.Net6</AssemblyName>
+    <RootNamespace>Atata.NUnitBasicTestProject.Net9</RootNamespace>
+    <AssemblyName>Atata.NUnitBasicTestProject.Net9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -65,7 +65,7 @@
     <None Include="ProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Atata.NUnitBasicTestProject.Net6.vstemplate">
+    <VSTemplate Include="Atata.NUnitBasicTestProject.Net9.vstemplate">
       <OutputSubPath>Atata</OutputSubPath>
       <SubType>Designer</SubType>
     </VSTemplate>

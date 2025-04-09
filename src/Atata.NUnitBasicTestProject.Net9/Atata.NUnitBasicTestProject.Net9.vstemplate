@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Atata NUnit Advanced Test Project (.NET 6)</Name>
-    <Description>An advanced project for automated web testing using Atata Framework and NUnit with configuration files.</Description>
+    <Name>Atata NUnit Basic Test Project (.NET 9)</Name>
+    <Description>A basic project for automated web testing using Atata Framework and NUnit.</Description>
     <Icon>logo.png</Icon>
     <ProjectType>CSharp</ProjectType>
-    <SortOrder>1002</SortOrder>
-    <TemplateID>08722dec-dd22-405f-aa27-89fdd5656156</TemplateID>
+    <SortOrder>1001</SortOrder>
+    <TemplateID>9bb6e521-34dd-4bb9-b047-5048096f297d</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <CreateInPlace>true</CreateInPlace>
     <DefaultName>AtataUITests</DefaultName>
@@ -20,21 +20,15 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false">Atata.json</ProjectItem>
-      <ProjectItem ReplaceParameters="false">Atata.local.json</ProjectItem>
-      <ProjectItem ReplaceParameters="true">AtataConfig.cs</ProjectItem>
       <ProjectItem ReplaceParameters="false">GlobalUsings.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false">local.runsettings</ProjectItem>
       <ProjectItem ReplaceParameters="true">SampleTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">SetUpFixture.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">UITestFixture.cs</ProjectItem>
     </Project>
     <CustomParameters>
       <CustomParameter Name="$Atata-version$" Value="3.5.0"/>
-      <CustomParameter Name="$Atata.Configuration.Json-version$" Value="3.0.0"/>
       <CustomParameter Name="$Atata.WebDriverSetup-version$" Value="3.3.0"/>
       <CustomParameter Name="$Microsoft.NET.Test.Sdk-version$" Value="17.13.0"/>
-      <CustomParameter Name="$NLog-version$" Value="5.4.0"/>
       <CustomParameter Name="$NUnit-version$" Value="4.3.2"/>
       <CustomParameter Name="$NUnit3TestAdapter-version$" Value="5.0.0"/>
     </CustomParameters>
