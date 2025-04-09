@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Upgrade Atata package reference to v3.5.0.
+- Upgrade Atata.WebDriverSetup package reference to v3.3.0.
+- Upgrade Microsoft.NET.Test.Sdk package reference to v17.13.0.
+- Upgrade NLog package reference to v5.4.0.
+- Upgrade NUnit package reference to v4.3.2.
+- Upgrade NUnit3TestAdapter package reference to v5.0.0.
+
 ## [3.4.0] - 2024-11-06
 
 ### Changed
