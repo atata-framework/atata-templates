@@ -1,6 +1,6 @@
 # Atata Templates
 
-[![Visual Studio Marketplace downloads](https://img.shields.io/visual-studio-marketplace/d/YevgeniyShunevych.AtataTemplates.svg)](https://marketplace.visualstudio.com/items?itemName=YevgeniyShunevych.AtataTemplates)
+[![Visual Studio Marketplace installs](https://img.shields.io/visual-studio-marketplace/i/YevgeniyShunevych.AtataTemplates)](https://marketplace.visualstudio.com/items?itemName=YevgeniyShunevych.AtataTemplates)
 [![GitHub release](https://img.shields.io/github/release/atata-framework/atata-templates.svg)](https://github.com/atata-framework/atata-templates/releases)
 [![Slack](https://img.shields.io/badge/join-Slack-green.svg?colorB=4EB898)](https://join.slack.com/t/atata-framework/shared_invite/zt-5j3lyln7-WD1ZtMDzXBhPm0yXLDBzbA)
 [![Atata docs](https://img.shields.io/badge/docs-Atata_Framework-orange.svg)](https://atata.io)
