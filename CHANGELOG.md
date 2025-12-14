@@ -21,6 +21,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade NUnit package reference to v4.4.0.
 - Upgrade NUnit3TestAdapter package reference to v5.2.0.
 
+### Removed
+
+- Remove support of Visual Studio 2019.
+
 ## [3.7.0] - 2025-10-17
 
 ### Changed
