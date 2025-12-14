@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add support of Visual Studio 2026.
+
 ### Changed
 
 - Upgrade Atata package reference to v3.8.0.
