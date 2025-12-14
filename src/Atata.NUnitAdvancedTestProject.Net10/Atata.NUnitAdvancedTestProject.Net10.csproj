@@ -9,11 +9,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}</ProjectGuid>
+    <ProjectGuid>{C794D490-F17E-4F7F-BC6E-91CE99C5E9A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Atata.NUnitBasicTestProject.Net9</RootNamespace>
-    <AssemblyName>Atata.NUnitBasicTestProject.Net9</AssemblyName>
+    <RootNamespace>Atata.NUnitAdvancedTestProject.Net10</RootNamespace>
+    <AssemblyName>Atata.NUnitAdvancedTestProject.Net10</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -54,18 +54,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SampleTests.cs" />
+    <None Include="SetUpFixture.cs" />
+    <None Include="Atata.json" />
+    <None Include="Atata.local.json" />
+    <None Include="AtataConfig.cs" />
+    <None Include="local.runsettings" />
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="GlobalUsings.cs" />
-    <None Include="SampleTests.cs" />
-    <None Include="SetUpFixture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="UITestFixture.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="ProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Atata.NUnitBasicTestProject.Net9.vstemplate">
+    <VSTemplate Include="Atata.NUnitAdvancedTestProject.Net10.vstemplate">
       <OutputSubPath>Atata</OutputSubPath>
       <SubType>Designer</SubType>
     </VSTemplate>

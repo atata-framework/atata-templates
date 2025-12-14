@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade NLog package reference to v6.0.7.
 - Upgrade NUnit package reference to v4.4.0.
 - Upgrade NUnit3TestAdapter package reference to v5.2.0.
+- Upgrade .NET 9 project templates to .NET 10: "Atata NUnit Basic Test Project (.NET 10)" and "Atata NUnit Advanced Test Project (.NET 10)".
 
 ### Removed
 

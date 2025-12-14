@@ -29,9 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net8", "src\Atata.NUnitAdvancedTestProject.Net8\Atata.NUnitAdvancedTestProject.Net8.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net6", "src\Atata.NUnitBasicTestProject.Net9\Atata.NUnitBasicTestProject.Net9.csproj", "{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net6", "src\Atata.NUnitBasicTestProject.Net10\Atata.NUnitBasicTestProject.Net10.csproj", "{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net6", "src\Atata.NUnitAdvancedTestProject.Net9\Atata.NUnitAdvancedTestProject.Net9.csproj", "{C794D490-F17E-4F7F-BC6E-91CE99C5E9A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net6", "src\Atata.NUnitAdvancedTestProject.Net10\Atata.NUnitAdvancedTestProject.Net10.csproj", "{C794D490-F17E-4F7F-BC6E-91CE99C5E9A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
