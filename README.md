@@ -24,9 +24,9 @@ The extension contains:
   - Atata NUnit Test Fixture
   - Atata NUnit Base Test Fixture
 
-![Add New Project window](images/new-project-window.png?v5)
+![Add New Project window](images/new-project-window.png?v6)
 
-![Add New Item window](images/new-item-window.png?v2)
+![Add New Item window](images/new-item-window.png?v3)
 
 All templates are located on Visual Studio's **New Project** and **New Item** windows inside **Atata** category.
 
