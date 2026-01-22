@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AtataTemplates" Version="3.8.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
+        <Identity Id="AtataTemplates" Version="3.9.0" Language="en-US" Publisher="Yevgeniy Shunevych" />
         <DisplayName>Atata Templates</DisplayName>
         <Description xml:space="preserve">A set of project and class templates for automated web testing using Atata Framework.</Description>
         <MoreInfo>https://atata.io</MoreInfo>
         <License>license.txt</License>
-        <ReleaseNotes>https://github.com/atata-framework/atata-templates/releases/tag/v3.8.0</ReleaseNotes>
+        <ReleaseNotes>https://github.com/atata-framework/atata-templates/releases/tag/v3.9.0</ReleaseNotes>
         <Icon>logo.png</Icon>
         <PreviewImage>logo_preview.png</PreviewImage>
         <Tags>atata,automation,testing,ui testing,test automation,automated testing,selenium,webdriver,nunit</Tags>

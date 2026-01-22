@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.9.0] - 2025-12-16
+
 ### Changed
 
 - Upgrade Atata package reference to v3.9.0.
@@ -102,7 +104,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade Atata package reference to v3.1.0.
 - Upgrade NLog package reference to v5.3.2.
 
-[Unreleased]: https://github.com/atata-framework/atata-templates/compare/v3.8.0...HEAD
+[Unreleased]: https://github.com/atata-framework/atata-templates/compare/v3.9.0...HEAD
+[3.9.0]: https://github.com/atata-framework/atata-templates/compare/v3.8.0...v3.9.0
 [3.8.0]: https://github.com/atata-framework/atata-templates/compare/v3.7.0...v3.8.0
 [3.7.0]: https://github.com/atata-framework/atata-templates/compare/v3.6.0...v3.7.0
 [3.6.0]: https://github.com/atata-framework/atata-templates/compare/v3.5.0...v3.6.0
