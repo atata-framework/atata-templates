@@ -9,7 +9,7 @@ Any issues or questions can also be targeted to any communication channel define
 
 ### Development Prerequisites
 
-- Visual Studio 2022 or JetBrains Raider.
+- Visual Studio 2022 or JetBrains Rider.
 
 ### Setting Up For Development
 

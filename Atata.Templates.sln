@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		CHANGELOG.md = CHANGELOG.md
 		src\CommonAssemblyInfo.cs = src\CommonAssemblyInfo.cs
+		CONTRIBUTING.md = CONTRIBUTING.md
 		src\logo.png = src\logo.png
 		README.md = README.md
 	EndProjectSection
@@ -29,9 +30,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.BasePageObject", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net8", "src\Atata.NUnitAdvancedTestProject.Net8\Atata.NUnitAdvancedTestProject.Net8.csproj", "{45534220-0B3C-4A2A-A72E-71BA0CDE926B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net6", "src\Atata.NUnitBasicTestProject.Net10\Atata.NUnitBasicTestProject.Net10.csproj", "{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net10", "src\Atata.NUnitBasicTestProject.Net10\Atata.NUnitBasicTestProject.Net10.csproj", "{15FC7CF8-18BF-4F5C-9782-BE0BDC30B2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net6", "src\Atata.NUnitAdvancedTestProject.Net10\Atata.NUnitAdvancedTestProject.Net10.csproj", "{C794D490-F17E-4F7F-BC6E-91CE99C5E9A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitAdvancedTestProject.Net10", "src\Atata.NUnitAdvancedTestProject.Net10\Atata.NUnitAdvancedTestProject.Net10.csproj", "{C794D490-F17E-4F7F-BC6E-91CE99C5E9A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
