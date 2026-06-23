@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.12.0] - 2026-06-23
+
+### Changed
+
+- Upgrade Atata package reference to v3.12.0.
+- Upgrade Microsoft.NET.Test.Sdk package reference to v18.6.0.
+
 ## [3.11.0] - 2026-05-19
 
 ### Changed
@@ -125,7 +132,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade Atata package reference to v3.1.0.
 - Upgrade NLog package reference to v5.3.2.
 
-[Unreleased]: https://github.com/atata-framework/atata-templates/compare/v3.11.0...HEAD
+[Unreleased]: https://github.com/atata-framework/atata-templates/compare/v3.12.0...HEAD
+[3.12.0]: https://github.com/atata-framework/atata-templates/compare/v3.11.0...v3.12.0
 [3.11.0]: https://github.com/atata-framework/atata-templates/compare/v3.10.0...v3.11.0
 [3.10.0]: https://github.com/atata-framework/atata-templates/compare/v3.9.0...v3.10.0
 [3.9.0]: https://github.com/atata-framework/atata-templates/compare/v3.8.0...v3.9.0
