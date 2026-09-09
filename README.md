@@ -21,8 +21,8 @@ The extension contains:
   - Atata Base Page Object
   - Atata Control
   - Atata Trigger
-  - Atata NUnit Test Fixture
-  - Atata NUnit Base Test Fixture
+  - Atata Test Suite
+  - Atata Global Fixture
 
 ![Add New Project window](images/new-project-window.png?v6)
 
@@ -48,11 +48,20 @@ or use another [Atata Contact](https://atata.io/contact/) way.
 
 ## Contact author
 
-Contact me if you need a help in test automation using Atata Framework, or if you are looking for a quality test automation implementation for your project.
+Contact me, Yevhenii Shunevych, if you need help with test automation using the Atata Framework.
+You can [hire me for test automation development or consulting](https://atata.io/consulting/) if you are looking for a high-quality, maintainable automation solution for your project.
 
 - LinkedIn: https://www.linkedin.com/in/yevgeniy-shunevych
 - Email: yevgeniy.shunevych@gmail.com
 - Consulting: https://atata.io/consulting/
+
+## Sponsorship
+
+Many thanks to the sponsors that regularly support the development of Atata Framework through donations:
+
+- **[Lombiq Technologies](https://lombiq.com/)**
+
+If Atata Framework is useful to you or your company, consider supporting the framework development with a [donation](https://atata.io/donate/).
 
 ## Contributing
 
