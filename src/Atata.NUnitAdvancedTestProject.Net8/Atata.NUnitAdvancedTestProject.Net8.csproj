@@ -55,17 +55,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SampleTests.cs" />
-    <None Include="SetUpFixture.cs" />
-    <None Include="Atata.json" />
-    <None Include="Atata.local.json" />
-    <None Include="AtataConfig.cs" />
+    <None Include="GlobalFixture.cs" />
+    <None Include="config.local.json" />
+    <None Include="GlobalConfig.cs" />
     <None Include="local.runsettings" />
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <None Include="GlobalUsings.cs" />
+    <None Include="NUnitAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="UITestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ProjectTemplate.csproj" />

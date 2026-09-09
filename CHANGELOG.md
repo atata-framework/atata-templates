@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add Atata.NLog package reference v4.0.0.
+- Add Atata.NUnit package reference v4.0.0.
+- Add Microsoft.Extensions.Configuration.Binder package reference v10.0.12.
+- Add Microsoft.Extensions.Configuration.EnvironmentVariables package reference v10.0.12.
+- Add Microsoft.Extensions.Configuration.Json package reference v10.0.12.
+
+### Changed
+
+- Upgrade Atata package reference to v4.0.1.
+- Upgrade Microsoft.NET.Test.Sdk package reference to v18.10.0.
+- Upgrade NUnit3TestAdapter package reference to v6.3.0.
+
+## Removed
+
+- Remove Atata.Configuration.Json package reference.
+- Remove NLog package reference.
+
 ## [3.12.0] - 2026-06-23
 
 ### Changed

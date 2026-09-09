@@ -4,24 +4,24 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <NoWarn>CS8618</NoWarn>
+    <NoWarn>$(NoWarn);CS8618</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Atata" Version="$Atata-version$" />
-    <PackageReference Include="Atata.Configuration.Json" Version="$Atata.Configuration.Json-version$" />
+    <PackageReference Include="Atata.NLog" Version="$Atata.NLog-version$" />
+    <PackageReference Include="Atata.NUnit" Version="$Atata.NUnit-version$" />
     <PackageReference Include="Atata.WebDriverSetup" Version="$Atata.WebDriverSetup-version$" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="$Microsoft.Extensions.Configuration.Binder-version$" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="$Microsoft.Extensions.Configuration.EnvironmentVariables-version$" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="$Microsoft.Extensions.Configuration.Json-version$" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$Microsoft.NET.Test.Sdk-version$" />
-    <PackageReference Include="NLog" Version="$NLog-version$" />
     <PackageReference Include="NUnit" Version="$NUnit-version$" />
     <PackageReference Include="NUnit3TestAdapter" Version="$NUnit3TestAdapter-version$" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Atata.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Atata.local.json">
+    <None Update="config.local.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

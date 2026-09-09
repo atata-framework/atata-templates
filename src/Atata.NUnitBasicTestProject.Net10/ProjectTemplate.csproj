@@ -4,11 +4,12 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <NoWarn>CS8618</NoWarn>
+    <NoWarn>$(NoWarn);CS8618</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Atata" Version="$Atata-version$" />
+    <PackageReference Include="Atata.NUnit" Version="$Atata.NUnit-version$" />
     <PackageReference Include="Atata.WebDriverSetup" Version="$Atata.WebDriverSetup-version$" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$Microsoft.NET.Test.Sdk-version$" />
     <PackageReference Include="NUnit" Version="$NUnit-version$" />
