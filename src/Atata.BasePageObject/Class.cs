@@ -1,9 +1,6 @@
-﻿using Atata;
+﻿namespace $rootnamespace$;
 
-namespace $rootnamespace$
+public abstract class $safeitemrootname$<TOwner> : Page<TOwner>
+    where TOwner : $safeitemrootname$<TOwner>
 {
-    public abstract class $safeitemrootname$<TOwner> : Page<TOwner>
-        where TOwner : $safeitemrootname$<TOwner>
-    {
-    }
 }

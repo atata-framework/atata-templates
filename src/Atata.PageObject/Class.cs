@@ -1,10 +1,7 @@
-﻿using Atata;
+﻿namespace $rootnamespace$;
 
-namespace $rootnamespace$
+using _ = $safeitemrootname$;
+
+public sealed class $safeitemrootname$ : Page<_>
 {
-    using _ = $safeitemrootname$;
-
-    public sealed class $safeitemrootname$ : Page<_>
-    {
-    }
 }

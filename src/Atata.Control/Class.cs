@@ -1,10 +1,7 @@
-﻿using Atata;
+﻿namespace $rootnamespace$;
 
-namespace $rootnamespace$
+[ControlDefinition("*")]
+public sealed class $safeitemrootname$<TOwner> : Control<TOwner>
+    where TOwner : PageObject<TOwner>
 {
-    [ControlDefinition("*")]
-    public class $safeitemrootname$<TOwner> : Control<TOwner>
-        where TOwner : PageObject<TOwner>
-    {
-    }
 }
