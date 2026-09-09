@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Microsoft.Extensions.Configuration.Binder package reference v10.0.12.
 - Add Microsoft.Extensions.Configuration.EnvironmentVariables package reference v10.0.12.
 - Add Microsoft.Extensions.Configuration.Json package reference v10.0.12.
+- Change "Atata NUnit Test Fixture" item template to "Atata Test Suite".
 
 ### Changed
 

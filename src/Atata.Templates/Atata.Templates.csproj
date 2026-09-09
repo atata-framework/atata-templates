@@ -97,9 +97,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Atata.NUnitTestFixture\Atata.NUnitTestFixture.csproj">
+    <ProjectReference Include="..\Atata.TestSuite\Atata.TestSuite.csproj">
       <Project>{6EBEB766-810A-4807-B23F-9D33F78F2E40}</Project>
-      <Name>Atata.NUnitTestFixture</Name>
+      <Name>Atata.TestSuite</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
