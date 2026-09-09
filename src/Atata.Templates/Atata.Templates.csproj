@@ -76,9 +76,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj">
+    <ProjectReference Include="..\Atata.GlobalFixture\Atata.GlobalFixture.csproj">
       <Project>{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}</Project>
-      <Name>Atata.NUnitBaseTestFixture</Name>
+      <Name>Atata.GlobalFixture</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

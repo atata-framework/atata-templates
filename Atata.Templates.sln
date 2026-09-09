@@ -22,7 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.Templates", "src\Atat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.TestSuite", "src\Atata.TestSuite\Atata.TestSuite.csproj", "{6EBEB766-810A-4807-B23F-9D33F78F2E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBaseTestFixture", "src\Atata.NUnitBaseTestFixture\Atata.NUnitBaseTestFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.GlobalFixture", "src\Atata.GlobalFixture\Atata.GlobalFixture.csproj", "{23E1EB9D-6EC3-4ACD-AFA1-E3EB41EE10CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atata.NUnitBasicTestProject.Net8", "src\Atata.NUnitBasicTestProject.Net8\Atata.NUnitBasicTestProject.Net8.csproj", "{9A5EB5E6-72C5-4708-A27C-86BCB5A4C696}"
 EndProject

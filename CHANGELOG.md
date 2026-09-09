@@ -14,11 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Microsoft.Extensions.Configuration.Binder package reference v10.0.12.
 - Add Microsoft.Extensions.Configuration.EnvironmentVariables package reference v10.0.12.
 - Add Microsoft.Extensions.Configuration.Json package reference v10.0.12.
-- Change "Atata NUnit Test Fixture" item template to "Atata Test Suite".
 
 ### Changed
 
 - Update project and item templates for Atata Framework 4.
+- Change "Atata NUnit Test Fixture" item template to "Atata Test Suite".
+- Change "Atata NUnit Base Test Fixture" item template to "Atata Global Fixture".
 - Upgrade Atata package reference to v4.0.1.
 - Upgrade Microsoft.NET.Test.Sdk package reference to v18.10.0.
 - Upgrade NUnit3TestAdapter package reference to v6.3.0.
