@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Update project and item templates for Atata Framework 4.
 - Upgrade Atata package reference to v4.0.1.
 - Upgrade Microsoft.NET.Test.Sdk package reference to v18.10.0.
 - Upgrade NUnit3TestAdapter package reference to v6.3.0.
